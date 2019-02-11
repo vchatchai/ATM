@@ -12,3 +12,5 @@ step
 2.  cd ATM
 3.  mvn package
 4.  java -jar target/atm-0.0.1-SNAPSHOT.jar
+
+![image](https://github.com/vchatchai/ATM/blob/master/image.png)
