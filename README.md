@@ -13,4 +13,6 @@ step
 3.  mvn package
 4.  java -jar target/atm-0.0.1-SNAPSHOT.jar
 
-![image](https://github.com/vchatchai/ATM/blob/master/image.png)
+![image](https://github.com/vchatchai/ATM/blob/master/1.png)
+![image](https://github.com/vchatchai/ATM/blob/master/2.png)
+![image](https://github.com/vchatchai/ATM/blob/master/3.png)
