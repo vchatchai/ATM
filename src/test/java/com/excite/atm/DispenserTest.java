@@ -1,6 +1,6 @@
 package com.excite.atm;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -8,10 +8,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
 
-class DispenserTest {
+
+public class DispenserTest {
 
 	private Dispenser dispenser = new Dispenser();
 	private int Note1000 = 200;
@@ -20,10 +20,7 @@ class DispenserTest {
 	private int Note50 = 1000;
 	private int Note20 = 5000;
 
-	@BeforeEach
-	public void setup() {
 
-	}
 
 	@Test
 	public void testDispensingUnderValue() throws MoneyException {

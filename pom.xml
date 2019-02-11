@@ -6,12 +6,6 @@
   <name>ATM</name>
   <dependencies>
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.1.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <artifactId>junit</artifactId>
       <groupId>junit</groupId>
       <version>4.11</version>
